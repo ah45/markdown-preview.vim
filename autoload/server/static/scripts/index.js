@@ -190,8 +190,7 @@
             code =  hljs.highlightAuto(code).value;
             return code.replace('code' + options.flagSign + 'code', options.aPoint);
         },
-        renderer: options.renderer,
-        breaks: true
+        renderer: options.renderer
     });
 
     function openConn() {
